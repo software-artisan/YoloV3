@@ -10,5 +10,5 @@ if [ ! -d "$2/data/customdata_walle" ]; then
     
     # unzip customdata.zip.  this creates data/customdata directory
     cd $2/data
-    unzip $1 
+    unzip -q $1 
 fi;
