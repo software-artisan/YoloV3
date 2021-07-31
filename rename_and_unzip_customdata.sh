@@ -2,7 +2,7 @@
 
 [ -z "$2" ] && { echo "Usage: $0 <zip_file_name> <yolov3_dir_path>"; exit 1; } 
 
-set -xq
+set -xe
 # if data/customdata_walle does not exist, 
 if [ ! -d "$2/data/customdata_walle" ]; then
     # then rename data/customdata to data/customdata_walle
